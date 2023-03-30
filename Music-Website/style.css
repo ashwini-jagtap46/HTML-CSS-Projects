@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+	--purple500: #2e135f;
+	--purple300: #3105d3;
+	--purple600: #1b0355;
+	--red600: #dc0000;
+	--body: #f9f6ff;
+	--max-width: 1200px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	/* font-size: 62.5%; */
+	font-size: 80%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	line-height: 1.4;
+}
+p {
+	font-size: 1.3rem;
+}
+section {
+	scroll-margin: 50px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+header {
+	background-color: var(--purple300);
+	position: sticky;
+	top: 0;
+	z-index: 50;
+	box-shadow: 5px 5px 3px rgba(43, 41, 41, 0.8);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+	color: white;
+	font-size: 1.3rem;
+}
+.logo {
+	font-size: 2rem;
+	font-weight: 600;
+}
+nav ul {
+	display: flex;
+	gap: 20px;
+}
+nav ul li {
+	border-bottom: 2px solid transparent;
+	transition: 0.3s ease-in;
+}
+nav ul li:hover {
+	border-bottom: 2px solid white;
+	transition: 0.3s ease-in;
+}
+.top_section {
+	color: white;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	text-align: center;
+	background-image: url("images/hero_image.png");
+	background-size: cover;
+	background-position: center;
+	padding: 0 30px;
+}
+.top_section .container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.top_section .container h1 {
+	font-size: 3rem;
+}
+.top_section .container h3 {
+	font-size: 1.6rem;
+}
+
+/* Music Section */
+.music_section {
+	background: var(--purple500);
+	padding: 50px 30px;
+	font-size: 1.2rem;
+}
+.music_section .container {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+.ipad_iphone_img {
+	position: relative;
+	top: 400px;
+	margin-top: -400px;
+	object-fit: contain;
+}
+button {
+	border: none;
+	padding: 10px 12px;
+	color: white;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.2s ease-in-out;
+}
+button:hover {
+	transition: 0.2s ease-in-out;
+	opacity: 0.9;
+}
+.primary-btn {
+	background-color: var(--red600);
+}
+/* about_music */
+.about_music {
+	margin-top: 450px;
+	padding: 0 30px;
+}
+.about_music .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	flex-direction: column;
+}
+.secondary-btn {
+	background-color: var(--purple500);
+}
+
+/* Video Section */
+.video_section {
+	background: url(images/video.png);
+	min-height: 600px;
+	color: white;
+	display: grid;
+	text-align: center;
+	place-items: center;
+}
+.video_section .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	flex-direction: column;
+}
+
+/* Gift Section */
+.gift_section {
+	display: flex;
+	justify-content: center;
+	margin: 80px 0;
+	gap: 60px;
+	padding: 0 30px;
+}
+.gift_content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.gift_section {
+	scroll-margin: 120px;
+}
+.gift_card_image {
+	max-width: 450px;
+}
+/* Footer section */
+.footer_upper {
+	background: var(--purple600);
+	padding: 20px 30px;
+}
+.footer_upper .container {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_upper h4 {
+	border-bottom: 2px solid white;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.footer-lower {
+	background: var(--purple300);
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+@media (max-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+	nav {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	.top_section {
+		padding: 0 20px;
+	}
+	.music_section .container h4,
+	.music_para {
+		text-align: center;
+	}
+	.ipad_iphone_img {
+		max-width: 800px;
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.gift_section {
+		display: flex;
+		flex-direction: column;
+	}
+	.gift_card_image {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.gift_content {
+		padding: 0 20px;
+	}
+	.footer_upper .container {
+		flex-wrap: wrap;
+		gap: 25px;
+	}
+	.footer_upper .footer_links {
+		min-width: 150px;
+	}
+}
+@media (max-width: 960px) {
+	.ipad_mac_img img,
+	.ipad_iphone_img img {
+		max-width: 100%;
+	}
+}

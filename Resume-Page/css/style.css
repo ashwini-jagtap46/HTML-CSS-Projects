@@ -1,0 +1,132 @@
+/* .first { */
+/* background-color: #9dd6df; */
+/* height: 200px; */
+/* width: 200px; */
+/* border: 10px solid; */
+/* padding: 20px; */
+/* } */
+.contact-detail {
+  width: 30%;
+  margin: auto;
+}
+.basic-detail {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+hr {
+  border-style: dotted none none;
+  width: 6%;
+  border-color: rgb(230, 217, 217);
+  border-width: 7px;
+  margin: 100px auto;
+}
+span {
+  text-decoration: underline;
+}
+body {
+  background-color: #c4e3e8;
+  text-align: center;
+  font-family: serif;
+  /* font-size: smaller; */
+  margin: 0;
+}
+p {
+  line-height: 2;
+}
+h1 {
+  font-size: 4.375rem;
+  margin: 100px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+  /* width: 1000px; */
+  /* margin: 0 auto; */
+}
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  color: #11999e;
+}
+a {
+  color: #11999e;
+}
+/* a:hover { */
+/* background-color: black; */
+/* color: white; */
+/* } */
+.top-cloud {
+  position: absolute;
+  width: 15%;
+  top: 30px;
+  right: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 50px;
+  top: 180px;
+  width: 15%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  /* float: left; */
+  /* text-align: center; */
+}
+.skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  /* margin: 20px auto; */
+}
+.middle-container {
+  background-color: white;
+  margin: 30px auto;
+}
+.btn {
+  background-color: #11999e;
+  padding: 12px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  width: 20%;
+  /* margin-bottom: 40px; */
+}
+.contact-me {
+  margin: 50px auto;
+  text-align: center;
+}
+.bottom-container {
+  margin: 40px auto;
+}
+.copy-right {
+  color: white;
+}
+.footer-link {
+  text-decoration: none;
+  color: #11999e;
+  font-weight: bold;
+  margin: 30px 20px;
+  /* display: inline-block; */
+}
+/* .second { */
+/* background-color: red; */
+/* height: 200px; */
+/* width: 200px; */
+/* border: 20px solid; */
+/* margin-top: 230px; */
+/* margin-left: 260px; */
+/* } */
+/*  */
+/* .third { */
+/* background-color: blue; */
+/* height: 200px; */
+/* width: 200px; */
+/* border: 10px solid; */
+/* margin-left: 500px; */
+/* } */
+/*  */

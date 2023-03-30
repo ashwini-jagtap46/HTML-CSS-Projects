@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: serif;
+}
+.contact-details {
+  margin: 60px auto 40px;
+  width: 45%;
+}
+.first-container {
+  background-color: #b7e0e0;
+}
+.cloud1 {
+  height: 15%;
+  position: absolute;
+  right: 150px;
+  top: 80px;
+  /* width: 30px; */
+}
+.cloud2 {
+  height: 15%;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.mountain {
+  height: 60%;
+}
+span {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 4.375rem;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  padding-top: 50px;
+}
+h2 {
+  color: #66bfbf;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+.second-container {
+  background-color: white;
+  margin: 60px auto;
+}
+.third-container {
+  background-color: #66bfbf;
+  padding: 30px auto 20px;
+}
+
+.user1 {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 180px;
+  background-color: black;
+}
+.user-details {
+  width: 40%;
+  margin: 60px auto 40px;
+}
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  color: lightgray;
+  border-width: 6px;
+  margin: 60px auto;
+}
+.skill1 {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 180px;
+  background-color: #66bfbf;
+  float: left;
+  margin-right: 30px;
+}
+.skill2 {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 180px;
+  background-color: black;
+  float: right;
+  margin-left: 30px;
+}
+h4,
+h3 {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+.btn {
+  background-color: #11999e;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: rgb(71, 174, 197);
+}
+a {
+  text-decoration: none;
+  color: #11999e;
+  font-weight: bold;
+  /* line-height: 5; */
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin-bottom: 100px; */
+}
+a:hover {
+  color: #59eded;
+}
+.copy-right {
+  color: white;
+}
+.skill-details {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me1 {
+  margin: 50px auto;
+}
